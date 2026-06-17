@@ -10,7 +10,7 @@ import {
   ActivityIndicator,
 } from "react-native";
 import * as SecureStore from "expo-secure-store";
-import { checkServerHealth, getAvailableLanguages } from "../services/translationService";
+import { checkServerHealth, getAvailableLanguages } from "../src/services/translationService";
 
 const STORAGE_KEYS = {
   LIBRETRANSLATE_URL: "libretranslate_url",

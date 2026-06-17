@@ -12,13 +12,13 @@ import {
 } from "react-native";
 import { CameraView, useCameraPermissions } from "expo-camera";
 import { router } from "expo-router";
-import { sliceImage, DetectedBox } from "../utils/imageSlicer";
-import { detectTextBlocks } from "../utils/textDetector";
+import { sliceImage, DetectedBox } from "../src/utils/imageSlicer";
+import { detectTextBlocks } from "../src/utils/textDetector";
 import {
   createChapter,
   savePageImage,
   saveDetectionResults,
-} from "../utils/chapterStorage";
+} from "../src/utils/chapterStorage";
 import * as SecureStore from "expo-secure-store";
 
 const { width: SCREEN_WIDTH } = Dimensions.get("window");

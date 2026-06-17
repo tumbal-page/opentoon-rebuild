@@ -13,7 +13,7 @@ import {
   listChapters,
   deleteChapter,
   ChapterData,
-} from "../utils/chapterStorage";
+} from "../src/utils/chapterStorage";
 
 export default function ChaptersScreen() {
   const [chapters, setChapters] = useState<ChapterData[]>([]);

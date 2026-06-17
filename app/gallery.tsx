@@ -13,8 +13,8 @@ import {
 import * as ImagePicker from "expo-image-picker";
 import * as FileSystem from "expo-file-system";
 import { router } from "expo-router";
-import { sliceImage, DetectedBox } from "../utils/imageSlicer";
-import { detectTextBlocks } from "../utils/textDetector";
+import { sliceImage, DetectedBox } from "../src/utils/imageSlicer";
+import { detectTextBlocks } from "../src/utils/textDetector";
 
 const { width: SCREEN_WIDTH } = Dimensions.get("window");
 

@@ -10,11 +10,11 @@ import {
   ActivityIndicator,
 } from "react-native";
 import { useLocalSearchParams, router } from "expo-router";
-import { DetectedBox } from "../utils/imageSlicer";
-import { translateDetectedBlocks, TranslatedBlock } from "../services/translationService";
-import { calculateTextStyle, TextStyle, shouldUseVerticalText } from "../utils/textPlacement";
-import { calculateFontConfig, createFontString } from "../utils/fontMatcher";
-import { detectBubbleShape, calculateBubbleStyle, fitTextInBubble } from "../utils/textBubble";
+import { DetectedBox } from "../src/utils/imageSlicer";
+import { translateDetectedBlocks, TranslatedBlock } from "../src/services/translationService";
+import { calculateTextStyle, TextStyle, shouldUseVerticalText } from "../src/utils/textPlacement";
+import { calculateFontConfig, createFontString } from "../src/utils/fontMatcher";
+import { detectBubbleShape, calculateBubbleStyle, fitTextInBubble } from "../src/utils/textBubble";
 
 const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get("window");
 
